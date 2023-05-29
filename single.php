@@ -2,7 +2,7 @@
 
 get_header(); ?>
 
-<div class="max-w-4xl mx-auto px-4 prose">
+<div class="max-w-4xl mx-auto px-4 prose bg-white">
   <?php if (have_posts()) {
     while(have_posts()) {
       the_post(); ?>
