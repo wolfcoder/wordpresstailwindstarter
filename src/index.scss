@@ -1,8 +1,13 @@
+
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+@import "menu";
+
 body {
-    @apply bg-red-100;
-    
+    @apply bg-gray-200;
+    font-size: 16px;
 }
+
